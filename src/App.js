@@ -8,13 +8,14 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
+//took out home as the main until i can get that more styled.
 function App() {
   return (
     <>
       <Router>
         <Layout>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<About />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
             <Route exact path="/contact" element={<Contact />} />

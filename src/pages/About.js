@@ -28,12 +28,13 @@ export default function About() {
             the web. I have a passion for back end development but I feel
             comfortable working whatever part of the application front or back
             that is in need! */}
-            I am a Full Stack Web Developer, certification from the University
-            of Denver Coding Bootcamp. I have a Bachelors of Science from the
-            University of Colorado-Boulder. Confident in MERN stack, SERN stack,
-            & JavaScript. My passion lies in back end development but I can nail
-            any part of the program necessary front or back! I love my pets,
-            nature, and coding.
+            I am a Full Stack Web Developer, with a certification from the
+            University of Denver Coding Bootcamp. I have a Bachelors of Science
+            from the University of Colorado-Boulder. Confident in MERN stack,
+            SERN stack, & JavaScript. My passion lies in back end development
+            but I can nail any part of the program necessary front or back! I
+            love my pets, nature, and coding. I am a bubbly and hard-working
+            addition to any team.
           </p>
           <a className="downloadBtn" href={resume} download>
             Download CV
