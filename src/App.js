@@ -2,11 +2,11 @@
 import React from "react";
 import Layout from "./components/Layout/Layout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./views/Home";
-import About from "./views/About";
-import Contact from "./views/Contact";
-import Portfolio from "./views/Portfolio";
-import Resume from "./views/Resume";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
