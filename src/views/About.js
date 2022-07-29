@@ -1,7 +1,7 @@
 import React from "react";
 import View from "../components/Layout/View";
 import aboutImg from "../components/images/Minniepic.png";
-import resume from "../components/images/Resume-for-website.pdf";
+import resume from "../components/images/Official-Resume.pdf";
 
 export default function About() {
   return (
