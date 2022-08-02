@@ -27,7 +27,14 @@ export default function Portfolio() {
                 </a>
               </span>
             </div>
-            <p>MERN stack application </p>
+            <p>
+              After login, app allows its users to interact with resources,
+              events, a forum, and a live chat feature.
+            </p>
+            <p>
+              Tools: CSS, React, socket.io, MongoDB, GraphQL, Bootstrap, bcrypt,
+              Express, JavaScript
+            </p>
           </div>
         </div>
         <div className="img">
