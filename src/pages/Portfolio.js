@@ -32,8 +32,8 @@ export default function Portfolio() {
               events, a forum, and a live chat feature.
             </p>
             <p>
-              Tools: CSS, React, socket.io, MongoDB, GraphQL, Bootstrap, bcrypt,
-              Express, JavaScript
+              Tools: JavaScript React, socket.io, MongoDB, GraphQL, Bootstrap,
+              bcrypt, Express, CSS
             </p>
           </div>
         </div>
@@ -53,7 +53,14 @@ export default function Portfolio() {
                 </a>
               </span>
             </div>
-            <p>MERN stack application </p>
+            <p>
+              After login, app allows user to filter through db to find
+              traditional games based on party size.{" "}
+            </p>
+            <p>
+              Tools: mySQL, Handlebars, Node, Express, RESTful API, bcrypt,
+              Bulma, JavaScript, HTML{" "}
+            </p>
           </div>
         </div>
         <div className="img">
@@ -61,7 +68,7 @@ export default function Portfolio() {
           <p className="shadow"></p>
           <div className="project-info">
             <div className="title-frame">
-              <h3>Refactoring RESTful API to GraphQL</h3>
+              <h3>GetYourBooksHere</h3>
               <span>
                 <a
                   href="https://restful-to-graphql.herokuapp.com/"
@@ -72,47 +79,17 @@ export default function Portfolio() {
                 </a>
               </span>
             </div>
-            <p>refactoring google books api</p>
+            <p>
+              Refactored RESTful API to GraphQL to cut down on amount fetched
+              through Google Books API.After login, users are able to search for
+              books, add & delete books to the user's page.
+            </p>
+            <p>
+              Tools: GraphQL, React, Express, Apollo, Mongoose, HTML, CSS,
+              JavaScript, Bootstrap, bcrypt
+            </p>
           </div>
         </div>
-        {/* <div className="img">
-          <img src={rosePro} alt="Rose-project images" />
-          <p className="shadow"></p>
-          <div className="project-info">
-            <div className="title-frame">
-              <h3>Flores Rosa Emilia</h3>
-              <span>
-                <a
-                  href="https://github.com/ollyhite/Flores-Rosa-Emilia"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-            </div>
-            <p>Online flower store</p>
-          </div>
-        </div>
-        <div className="img">
-          <img src={eventPro} alt="evets-project images" />
-          <p className="shadow"></p>
-          <div className="project-info">
-            <div className="title-frame">
-              <h3>DU-Events-Listener</h3>
-              <span>
-                <a
-                  href="https://github.com/ruxpin86/DU-Event-Listeners"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <FaGithub />
-                </a>
-              </span>
-            </div>
-            <p>The Web can keep in touch, chat, share coding stuffs</p>
-          </div> */}
-        {/* </div> */}
         <p>© 2022 Kristyn D. ❤️ Website Productions</p>
       </div>
     </View>
