@@ -29,8 +29,6 @@ export default function Contact() {
             <p>Denver, CO (US)</p>
             <h2>Email</h2>
             <p>kristyndcb@gmail.com</p>
-            <h2>Phone</h2>
-            <p>(201) 310-9003</p>
           </div>
           {/* <div className="right">
             <h1>Your Information</h1>
