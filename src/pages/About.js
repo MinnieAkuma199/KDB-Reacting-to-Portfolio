@@ -8,7 +8,7 @@ export default function About() {
     <View>
       <div className="about-frame">
         <div className="left">
-          <h1>Little Bit About Kris</h1>
+          <h1>About Kris</h1>
           <img src={aboutImg} />
         </div>
         <div className="right">

@@ -9,13 +9,14 @@
     .left{
         width: 60%;
         height: 100%;
-        display: flex;
-        @media all and (min-width: 1250px) {
-        }
+        // display: flex;
+        // @media all and (min-width: 1250px) {
+        // }
         h1{
             width: 20%;
-            font-size: 3rem;
+            font-size: 1rem;
             z-index: 1;
+            left: 20 rem;
         }
         img{
             width: 20vw;
@@ -54,6 +55,7 @@ $layout-breakpoint-450: 450px;
                 img {
                     width: 25vw;
                 }
+            
             }
     }
     
@@ -92,7 +94,7 @@ $layout-breakpoint-450: 450px;
                 width: 45vw;
             }
             h1 {
-                font-size: 4rem;
+                font-size: 1rem;
             }
         }
         .right {
@@ -112,7 +114,8 @@ $layout-breakpoint-450: 450px;
             }
 
             h1 {
-                font-size: 4rem;
+                font-size: 1rem;
+                left: 10rem;
             }
         }
         .right {
