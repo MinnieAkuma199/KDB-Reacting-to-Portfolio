@@ -3,9 +3,6 @@ import MiniContact from "../card/MiniContact";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export default function Footer() {
-  const linkedInUrl =
-    "https://www.linkedin.com/in/kristyn-del-campo-banrevy-8060b2197/";
-  const githubUrl = "https://github.com/minnieakuma199";
   const [openContact, setOpen] = useState(false);
   const onBtnClick = (event) => {
     const temState = !openContact;
@@ -18,7 +15,7 @@ export default function Footer() {
     <>
       <footer>
         <div className="footerEl">
-          <p>©The DU Event Listeners 2022</p>
+          <p>© 2022 Kristyn D. ❤️ Website Productions</p>
           <ul className="footer-list">
             <li>
               <a href="https://github.com/MinnieAkuma199" target="blank">

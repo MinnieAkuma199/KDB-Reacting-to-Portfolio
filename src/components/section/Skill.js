@@ -10,13 +10,13 @@ export default function Skill() {
             <div className="left"></div>
             <ul className="right">
               <li>JavaScript / JQuery</li>
-              <li>React / Redux </li>
+              <li>React / Node </li>
               <li>GraphQL API / RESTful API</li>
-              <li>Html5 / CSS / SCSS /Bootstrap</li>
+              <li>Html / CSS / Bootstrap</li>
               <li>Node.js / Jest </li>
-              <li> GitHub / npm </li>
-              <li>MySQL / MongoDB</li>
-              <li>SERN stack / MERN stack </li>
+              <li> GitHub / Heroku </li>
+              <li>SQL / NoSQL</li>
+              <li>JavaScript</li>
             </ul>
           </div>
         </div>
