@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -12,9 +13,19 @@ export default function Header() {
         <a href="/contact">Contact</a>
         <a href="/resume">Resume</a>
       </div>
-      <a href="mailto:kristyndcb@gmail.com" target="_blank" rel="noreferrer">
-        kristyndcb@gmail.com
-      </a>
+      <div>
+        <ul className="footer-list">
+          <li>
+            <a
+              href="mailto:kristyndcb@gmail.com"
+              target="blank"
+              // rel="noreferrer"
+            >
+              <AiOutlineMail size={20} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
