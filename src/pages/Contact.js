@@ -8,7 +8,6 @@ export default function Contact() {
       <View>
         <div className="title">
           <h1>Get In Touch</h1>
-          <p>Looking forward to hearing from you!</p>
         </div>
         <div className="contact-frame">
           <div className="left">

@@ -1,19 +1,35 @@
 nav{
     width: 95%;
     height: 15%;
-    // border: 1px solid green;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 10px;
     .menu{
-        height: 100%;
+        height: 50%;
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         justify-content: space-between;
+        // margin: auto;
+        
         .home{
             font-weight: bolder;
-            font-size: 2em;
+            font-size: 1rem;
+            size: 1rem;
+            
         }
     }
+        .container {
+            width: 5rem;
+            height: 5rem;
+        }
+           $breakpoint-tablet: 820px;
+// small screen = smaller logo
+//i want navbar to dissapear when screen decreases
+           @media (max-width: $breakpoint-tablet) {
+        .container {
+                width: 2.5rem;
+                height: 2.5rem;
+            }
+        }
 }
