@@ -90,7 +90,6 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-        <p>© 2022 Kristyn D. ❤️ Website Productions</p>
       </div>
     </View>
   );

@@ -18,7 +18,6 @@ export default function Resume() {
         <Eduction />
         {/* <Work /> */}
         <Skill />
-        <p> © 2022 Kristyn D. ❤️ Website Productions</p>
       </div>
     </View>
   );

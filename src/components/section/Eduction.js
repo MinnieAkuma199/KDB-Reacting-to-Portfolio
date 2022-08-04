@@ -29,14 +29,14 @@ export default function Eduction() {
             </div>
           </div>
           <div className="section">
-            <div className="left">
+            {/* <div className="left">
               <p>2015 - 2019</p>
-            </div>
-            <div className="right">
+            </div> */}
+            {/* <div className="right">
               <h5>Minor in Sociology & Public Health Certificate</h5>
               <p>University of Colorado - Boulder</p>
               <p>Boulder, CO</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <p className="line right"></p>
