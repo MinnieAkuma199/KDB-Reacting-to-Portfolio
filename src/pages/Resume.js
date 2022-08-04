@@ -1,7 +1,7 @@
 import React from "react";
 import View from "../components/Layout/View";
 import Eduction from "../components/section/Eduction";
-// import Work from "../components/section/Work";
+
 import Skill from "../components/section/Skill";
 import resume from "../components/images/Official-Resume.pdf";
 
@@ -16,7 +16,6 @@ export default function Resume() {
           </a>
         </div>
         <Eduction />
-        {/* <Work /> */}
         <Skill />
       </div>
     </View>

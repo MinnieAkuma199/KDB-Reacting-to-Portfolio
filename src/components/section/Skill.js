@@ -16,11 +16,10 @@ export default function Skill() {
               <li>Node.js / Jest </li>
               <li> GitHub / Heroku </li>
               <li>SQL / NoSQL</li>
-              <li>JavaScript</li>
             </ul>
           </div>
         </div>
-        <p className="line right"></p>
+        {/* <p className="line right"></p> */}
       </div>
     </>
   );

@@ -1,20 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import View from "../components/Layout/View";
-import ContactForm from "../components/form/ContactForm";
-import MsgModal from "../components/modal/MsgModal";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-//taking out contact form for now
 export default function Contact() {
-  const [open, setOpen] = useState(false);
-  const [isError, setError] = useState(false);
-
-  const openMsgMadolFunc = (open) => {
-    setOpen(open);
-  };
-
-  const checkIsErrorFunc = (isError) => {
-    setError(isError);
-  };
   return (
     <>
       <View>
@@ -29,21 +17,20 @@ export default function Contact() {
             <p>Denver, CO (US)</p>
             <h2>Email</h2>
             <p>kristyndcb@gmail.com</p>
+            <h2>Github</h2>
+            <a href="https://github.com/MinnieAkuma199" target="blank">
+              <AiFillGithub size={20} />
+            </a>
+            <h2>LinkedIn</h2>
+            <a
+              href="https://www.linkedin.com/in/kristyn-del-campo-banrevy-8060b2197/"
+              target="blank"
+            >
+              <AiFillLinkedin size={20} />
+            </a>
           </div>
-          {/* <div className="right">
-            <h1>Your Information</h1>
-            <ContactForm
-              openMsgMadolFunc={openMsgMadolFunc}
-              checkIsErrorFunc={checkIsErrorFunc}
-            />
-          </div> */}
         </div>
       </View>
-      <MsgModal
-        open={open}
-        isError={isError}
-        openMsgMadolFunc={openMsgMadolFunc}
-      />
     </>
   );
 }
