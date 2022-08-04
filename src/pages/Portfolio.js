@@ -3,6 +3,7 @@ import View from "../components/Layout/View";
 import eventListeners from "../components/images/Event-Listeners.gif";
 import scrolloDeck from "../components/images/ScrolloDeck.gif";
 import graphQL from "../components/images/Graphql-gif.gif";
+import weatherApp from "../components/images/Weather-App.gif";
 import { AiOutlineLink } from "react-icons/ai/";
 // import { FaGithub } from "react-icons/fa/";
 
@@ -88,6 +89,31 @@ export default function Portfolio() {
               Tools: GraphQL, React, Express, Apollo, Mongoose, HTML, CSS,
               JavaScript, Bootstrap, bcrypt
             </p>
+          </div>
+        </div>
+        {/*  */}
+        <div className="img">
+          <img src={weatherApp} alt="functionality of website" />
+          <p className="shadow"></p>
+          <div className="project-info">
+            <div className="title-frame">
+              <h3>Weather App</h3>
+              <span>
+                <a
+                  href="https://minnieakuma199.github.io/Weather_Tracker/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiOutlineLink />
+                </a>
+              </span>
+            </div>
+            <p>
+              Created a Weather app that uses any city in the US to show user
+              the 5 day forecast. Temperature, wind speed, humidity and UV index
+              is shown. Can use history of search to go back to previous
+            </p>
+            <p>Tools: RESTful API, HTML, CSS, JavaScript, Bootstrap</p>
           </div>
         </div>
       </div>
