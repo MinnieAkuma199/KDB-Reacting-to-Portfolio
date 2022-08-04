@@ -6,7 +6,7 @@ export default function Header() {
     <nav>
       <div className="menu">
         <a className="home" href="/">
-          Kristyn D-B.
+          Kris
         </a>
         <a href="/about">About</a>
         <a href="/portfolio">Portfolio</a>
@@ -16,11 +16,7 @@ export default function Header() {
       <div>
         <ul className="footer-list">
           <li>
-            <a
-              href="mailto:kristyndcb@gmail.com"
-              target="blank"
-              // rel="noreferrer"
-            >
+            <a href="mailto:kristyndcb@gmail.com" target="blank">
               <AiOutlineMail size={20} />
             </a>
           </li>

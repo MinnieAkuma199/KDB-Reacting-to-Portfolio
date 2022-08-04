@@ -19,7 +19,6 @@ export default function Skill() {
             </ul>
           </div>
         </div>
-        {/* <p className="line right"></p> */}
       </div>
     </>
   );
