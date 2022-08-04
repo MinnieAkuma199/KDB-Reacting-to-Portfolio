@@ -6,7 +6,7 @@
 
 [Deployed app on heroku](https://kdb-portfolio.herokuapp.com/)
 
-- Welcome to my react portfolio showcasing some of the projects I have worked on! I wanted a place where employers could get to know me a little better, and 
+- Welcome to my react portfolio showcasing some of the projects I have worked on! I wanted a place where employers could get to know me a little better, and see all the hard work I have poured into my programming career. 
 
 ## Table of Contents
 
