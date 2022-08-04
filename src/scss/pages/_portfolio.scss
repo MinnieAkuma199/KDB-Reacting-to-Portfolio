@@ -46,104 +46,53 @@
             .title-frame{
                 display: flex;
                 align-items: center;
-                a{
-                    margin-left: 2rem;
-                    cursor: pointer;
-                }
+                // a{
+                //     margin-left: 2rem;
+                //     cursor: pointer;
+                // }
             }
             p{
                 font-size: 1.2rem;
             }
         }
     }
-    .img:hover {
-        .shadow{
-            opacity: 0.8;
-        }
-        .project-info{
-            opacity: 1;
-            color: white;
-            font-size: 3rem;
-            a{
-                color: white;
-            }
-            a:hover{
-                color: var(--text-pink);
-            }
-        }
-    }
+           $breakpoint-tablet: 820px;
     
-}
-
-$layout-breakpoint-1200:1200px;$layout-breakpoint-600: 600px;
-$layout-breakpoint-500: 500px;
-
-@media all and (max-width: $layout-breakpoint-1200) {
-    .project-frame{
-        .img{
-            .project-info{
-                .title-frame{
-                    font-size: 2rem;
+           @media (min-width: $breakpoint-tablet){.img:hover {
+                .shadow {
+                    opacity: 0.8;
                 }
-                p{
+        
+                .project-info {
+                    opacity: 1;
+                    color: white;
                     font-size: 1.5rem;
-                }
-            }
-        }
-    }
-
-}
-
-@media all and (max-width: $layout-breakpoint-600) {
-    .project-frame {
-        .img {
-            .project-info {
-                .title-frame {
-                    font-size: 1.5rem;
-                    svg{
-                        width: 2rem;
-                        height: 2rem;
+        
+                    a {
+                        color: white;
                     }
                 }
-                p {
+            }}
+   
+    //when at a smaller size i want text visible
+        $breakpoint-tablet: 820px;
+    
+        @media (max-width: $breakpoint-tablet) {.img {
+                .shadow {
+                    opacity: 0.8;
+                }
+        
+                .project-info {
+                    opacity: 1;
+                    color: white;
                     font-size: 1rem;
+        
+                    a {
+                        color: white;
+                    }
+                    p {
+                        font-size: 0.5rem;
+                    }
                 }
-            }
-        }
-    }
-
-}
-
-@media all and (max-width: $layout-breakpoint-500) {
-    .project-frame {
-        .img {
-            .project-info {
-                .title-frame {
-                    font-size: 1rem;
-                }
-                p {
-                    font-size: 0.8rem;
-                }
-            }
-        }
-    }
-
-}
-
-@media all and (max-width: 400px) {
-    .project-frame {
-        .img {
-            .project-info {
-                width: 80%;
-                .title-frame {
-                    font-size: .8rem;
-                }
-
-                p {
-                    font-size: 0.8rem;
-                }
-            }
-        }
-    }
-
+            }}
 }
