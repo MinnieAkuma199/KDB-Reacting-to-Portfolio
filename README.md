@@ -24,7 +24,10 @@ Tech Used: React, SCSS, JavaScript
 ### Installation
 
 To run on localhost: 
+```md
 $ npm i && npm run develop 
+```
+
 
 ### Contributors
 
