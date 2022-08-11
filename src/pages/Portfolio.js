@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <View>
       <div className="project-frame">
-        <h1 className="title">Portfolio</h1>
+        <h1 className="title">Projects</h1>
         <div className="img">
           <img src={eventListeners} alt="functionality of website" />
           <p className="shadow"></p>

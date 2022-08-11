@@ -1,28 +1,22 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import logo from "../images/Logo.png";
+// import { Link } from "react-router-dom";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
-export default function Header() {
+const Header = () => {
   return (
-    <nav>
-      <div className="menu">
-        <a className="home" href="/">
-          <img className="container" src={logo} alt="Logo" />
-        </a>
-        <a href="/about">About</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/contact">Contact</a>
-        <a href="/resume">Resume</a>
-      </div>
-      <div>
-        <ul className="footer-list">
-          <li>
-            <a href="mailto:kristyndcb@gmail.com" target="blank">
-              <AiOutlineMail size={20} />
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <>
+      <Container>
+        <Navbar className="mt-0 p-2 my-nav" variant="dark">
+          <Container>
+            <Nav className="ms-auto">
+              <a href="/about">About </a>|<a href="/portfolio"> Projects </a>|
+              <a href="/contact"> Contact Me </a>|<a href="/resume"> Resume</a>
+            </Nav>
+          </Container>
+        </Navbar>
+      </Container>
+    </>
   );
-}
+};
+
+export default Header;
